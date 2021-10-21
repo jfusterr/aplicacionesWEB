@@ -1,16 +1,42 @@
 /* 1 - dona al <body> element un color de fons de #4db3b7 */
-
+body{
+    background-color: #4db3b7;
+}
 /* 2 - Fes que els <h1> siguin de color #9b59b6 */
+
+h1{
+    color: #9b59b6;
+}
 
 /* 3 - Fes que els <h3> siguin de color lightsalmon */
 
+h3{
+    color: lightsalmon;
+}
+
 /* 4 - Fes que els <li> siguin d'un verd hexadecimal */
+
+li{
+    color: #00ff00;
+}
 
 /* 5 - Canvia el color de fons de cada paràgraf a vermell */
 
+p{
+    background-color: red;
+}
 /* 6 - Fes que tots els inputs tinguin un border de 2px taronja sòlid */
 
+input{
+    border-width: 2px;
+}
+
 /* 7 - Fes que tot el que té class 'fonsBlanc' sigui de fons blanc */
+
+.fonsBlanc{
+    background-color: white;
+}
+
 
 /* 8 - Fes que l'element amb id 'recuadre' tingui un border 2px solid blau (selecciona el teu propi rgb blau) */
 
