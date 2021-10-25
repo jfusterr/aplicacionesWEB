@@ -60,21 +60,50 @@ input[type=password]{
 
 /* 11 - Fes que els <p> dins el 3r <div> tinguin fons rosa */
 
+div:nth-of-type(3) p {
+    background-color: pink;
+}
 
 
 /* 12 - Fes que el 2n <em> dins el <p> amb id "loremIpsum" tingui un border de 5px negre amb punts */
 
+p#loremipsum em:nth-of-type(2){
+    border-style: dotted;
+    border-color: black;
+    border-width: 5px;
+}
+
 /* 13 - Fes que l'element <em> del 3r <div> sigui blanc amb una font de 20px */
+
+div:nth-of-type(3) em {
+    color: white;
+    size: 25px;
+}
 
 /* 14 - Fes que els elements de classe "transparent" tenguin una transparència del 75% */
 
+.transparent{
+    opacity: 0.75;
+}
+
+
 /* 15 - Fes que els elements h3 de dins un div estigui subrajat per adalt i per abaix */
 
-/* 16 - Fes que tots el s checkboxes que estiguin marcats tinguin un marge esquerra de 20px */
+div h3{
+    text-decoration: underline overline solid ;
+}
+
+
+/* 16 - Fes que tots els checkboxes que estiguin marcats tinguin un marge esquerra de 20px */
+
+input[type="checkbox"]:checked{
+    margin-left: 20px;
+}
 
 /* 17 - Fes que els elements <h2> de classe "mayusc" siguin tots UPPERCASE (sense canviar el HTML) */
 
-/* 18 - Fes que la primera lletra de l'element amb id 'special' sigui de color blau i amb font de 100px*/
+
+/* 18 - Fes que la primera lletra de l'element amb id 'especial' sigui de color blau i amb font de 100px*/
 
 /* 19 - Fes que el color de font dels <h2> canviï a vermell quan el ratolí passi per damunt */
 
