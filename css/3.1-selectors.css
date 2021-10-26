@@ -102,9 +102,26 @@ input[type="checkbox"]:checked{
 
 /* 17 - Fes que els elements <h2> de classe "mayusc" siguin tots UPPERCASE (sense canviar el HTML) */
 
+h2.mayusc{
+    text-transform: uppercase;
+}
 
 /* 18 - Fes que la primera lletra de l'element amb id 'especial' sigui de color blau i amb font de 100px*/
 
+
+#especial{
+    text-transform: capitalize;
+}
+
+
 /* 19 - Fes que el color de font dels <h2> canviï a vermell quan el ratolí passi per damunt */
 
+h2:hover{
+    color: red;
+}
+
 /* 20 - Fes que els <a> que hagin estat visitats siguin d'un color taronja (pots seleccionar el teu propi color) */
+
+a:visited{
+    color: orange;
+}
