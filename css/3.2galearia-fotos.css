@@ -7,17 +7,29 @@ h1{
     
 }
 
-div{
-    
-}
+
 img{
-  
-    float: left;
-    width: 31.2%;
-    height: 31.2%;
-    margin: 0.3%;
+    display: inline-block;
+    position: relative;
+    float: none;
+    width: 30.5%;
+    height: 30.5%;
+    margin: 0.4%;
     border-style: solid;
     border-radius: 10%;
+}
+
+body{
+    margin: 0%;
+}
+
+div{
+    margin: auto;
+}
+
+.contenedor{
+    width: 100%;
+    margin: auto;
 }
 
 a{
@@ -25,7 +37,22 @@ a{
     text-decoration: none;
 }
 
+.copirite{
+    text-align:  right;
+    float: right;
+    margin-right: 4%;
+}
 
+.indice{
+    text-align: left;
+    float: left;
+    margin-left: 4%;
+}
+
+h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: small;
+}
 
 
 
