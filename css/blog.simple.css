@@ -3,27 +3,111 @@
 
 /* font-family: 'Raleway', sans-serif; */
 
-body{
-    margin-left: 3vw;
-    margin-right: 3vw;
+*{
+    margin: 0;
+    
+}
+
+
+
+.cajon{
+    margin-left: 20vw;
+    margin-right: 20vw;
     border: #bdc3c7 solid 5px;
+    padding: 1%;
+    
+}
+
+li{
+  
+    display: inline-block;
+    text-align: center;
+    width: 20%;
+    background-color: grey;
+    border: 10px grey solid;
+    margin: 0;
+}
+
+h1{ margin-left: 4%;
+    padding: 1%;
+    color: #3498db;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+article{
+    margin-left: 4%;
+    margin-right: 7%;
+    text-align: justify;
+}
+
+article div{
     padding: 1%;
 }
 
-.cajalista{
-    margin: 0 auto;
+
+.cajasub{
+    border-left: solid gray 2px;
 }
 
-
-li{
-    display: inline-block;
+.subsitulo{
     padding-left: 1%;
-    padding-right: 1%;
-    text-align: center;
-    width: 21%;
-    background-color: gray;
-    
+    font-size: small
 }
+
+
+.wrapper {
+    padding-bottom: 30px;
+    }
+    
+    .divider {
+    position: relative;
+    margin-top: 40px;
+    height: 1px;
+    }
+    
+    .div-transparent:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 5%;
+    right: 5%;
+    width: 90%;
+    height: 1px;
+    background-image: linear-gradient(to right, transparent, rgb(48,49,51), transparent);
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
