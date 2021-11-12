@@ -5,6 +5,7 @@
 
 *{
     margin: 0;
+    
 }
 
 
@@ -29,7 +30,9 @@ li{
 
 h1{ margin-left: 4%;
     padding: 1%;
-    font-size: xx-large
+    color: #3498db;
+    font-family: 'Raleway', sans-serif;
+
 }
 
 article{
@@ -43,12 +46,36 @@ article div{
 }
 
 
+.cajasub{
+    border-left: solid gray 2px;
+}
+
+.subsitulo{
+    padding-left: 1%;
+    font-size: small
+}
 
 
-
-
-
-
+.wrapper {
+    padding-bottom: 30px;
+    }
+    
+    .divider {
+    position: relative;
+    margin-top: 40px;
+    height: 1px;
+    }
+    
+    .div-transparent:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 5%;
+    right: 5%;
+    width: 90%;
+    height: 1px;
+    background-image: linear-gradient(to right, transparent, rgb(48,49,51), transparent);
+    }
 
 
 
