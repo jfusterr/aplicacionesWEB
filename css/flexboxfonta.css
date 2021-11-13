@@ -10,13 +10,13 @@ body{
     height: 25vh;
     align-items: center;
     justify-content: center;
-    background-color: blue;
+    background-color: rgb(10, 10, 197);
 }
 
 a{
    text-align: center;
    width: 200px;
    height: 200px;
-   background-color: white;
+   background-color: rgb(253, 244, 244);
 
 }
