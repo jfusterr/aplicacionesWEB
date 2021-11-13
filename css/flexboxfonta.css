@@ -1,0 +1,22 @@
+
+
+body{
+    background-color: gray;
+    margin: 0;
+}
+
+.cajon{
+    display: flex;
+    height: 25vh;
+    align-items: center;
+    justify-content: center;
+    background-color: blue;
+}
+
+a{
+   text-align: center;
+   width: 200px;
+   height: 200px;
+   background-color: white;
+
+}
