@@ -9,14 +9,25 @@ body{
     display: flex;
     height: 25vh;
     align-items: center;
+    align-content: space-between;
     justify-content: center;
-    background-color: rgb(10, 10, 197);
+    background-color: rgb(22, 163, 81);
+}
+ 
+.cajon div{
+   text-align: center;
+   margin: 3%;
+}
+
+a div{
+    padding-top: 15px;
 }
 
 a{
-   text-align: center;
-   width: 200px;
-   height: 200px;
-   background-color: rgb(253, 244, 244);
+    text-decoration: none;
+    color: white;
+}
 
+i:hover{
+    color: black;
 }
