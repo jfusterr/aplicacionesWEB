@@ -1,13 +1,14 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
 
 body{
     background-color: gray;
     margin: 0;
+    font-family: 'Raleway', sans-serif;
 }
 
 .cajon{
     display: flex;
-    height: 25vh;
+    height: 25h;
     align-items: center;
     align-content: space-between;
     justify-content: center;
@@ -25,7 +26,7 @@ a div{
 
 a{
     text-decoration: none;
-    color: white;
+    color: inherit white;
 }
 
 i:hover{

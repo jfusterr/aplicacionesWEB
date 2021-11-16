@@ -1,14 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
 
 /* font-family: 'Raleway', sans-serif; */
 
 *{
     margin: 0%;
+   
+    font-family: 'Raleway', sans-serif;
     
 }
 
-
+a{
+    text-decoration: none;
+    color: inherit;
+}
 
 .cajon{
     margin-left: 20vw;
@@ -16,6 +21,9 @@
     border: #bdc3c7 solid 5px;
     padding: 1%;
     
+}
+p{
+    color: black;
 }
 
 li{
@@ -31,7 +39,7 @@ li{
 h1{ margin-left: 3%;
     padding: 1%;
     color: #3498db;
-    font-family: 'Raleway', sans-serif;
+
 
 }
 
