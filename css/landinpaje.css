@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Shippori+Antique&display=swap');
-.aaa
 
 *{
-<<<<<<< HEAD
     font-family: 'Shippori Antique', sans-serif;
 }
 
@@ -14,19 +12,6 @@
 body{
     margin: 0;
     padding: 0;
-=======
-    color: blue;
-    font-family: 'Shippori Antique', sans-serif;
-}
-
-body{
-    margin: 0;
-}
-
-
-.blarco{
-    color: white ;
->>>>>>> 2d1204d2ea3eaa640d8c94bf2ad5006f8368ed92
 }
 
 .cajon{
@@ -38,40 +23,25 @@ body{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-<<<<<<< HEAD
-=======
     text-align: center; 
->>>>>>> 2d1204d2ea3eaa640d8c94bf2ad5006f8368ed92
 }
 
 h2{
     margin-bottom: 40px;
-<<<<<<< HEAD
     color: var(--azul);
 }
 h1{
-    color:var(--azul);
-=======
-    color: blue;
-}
-h1{
-    color: blue;
->>>>>>> 2d1204d2ea3eaa640d8c94bf2ad5006f8368ed92
+    color: var(--azul);
 }
 
 .boron{
     border: solid 1px;
-<<<<<<< HEAD
     border-radius: 20%;
-=======
-    border-radius: 10%;
->>>>>>> 2d1204d2ea3eaa640d8c94bf2ad5006f8368ed92
     padding: 10px;
 }
 
 a{
     text-decoration: none;
-<<<<<<< HEAD
     color: var(--azul);
 }
 
@@ -95,51 +65,10 @@ a{
 .divasB{
     background-color: var(--azul);
     color: var(--blanco);
-=======
-    color: blue;
-}
-
-.boron:hover{
-    background-color: blue;
-    color: white;
-    border: blue solid;
-}
-
-.divas{
-    margin-top: 1.5%;
-    margin-bottom: 1.5%;
-    padding: 20px;
-    color: blue;
-}
-
-.divasB{
-    margin-top: 1.5%;
-    margin-bottom: 1.5%;
-    background-color: blue;
-    color: white;
-    padding: 20px;
-}
-
-.fondo{
-    background-color: blue;
-    color: white;
-
-}
-.p2{
-    padding: 15px;
-}
-.pp{
-    padding: 15px;
-    color: white;
->>>>>>> 2d1204d2ea3eaa640d8c94bf2ad5006f8368ed92
 }
 
 .pobreza{
     display: flex;
-<<<<<<< HEAD
-=======
-
->>>>>>> 2d1204d2ea3eaa640d8c94bf2ad5006f8368ed92
 }
 
 
