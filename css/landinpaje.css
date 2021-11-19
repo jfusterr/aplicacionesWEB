@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Antique&display=swap');
+
+*{
+    font-family: 'Shippori Antique', sans-serif;
+}
+
+:root{
+    --azul: blue;
+    --blanco: white;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.cajon{
+    background-image: url(../fotos/landinpaje/moon1.jpg);
+    display: flex;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h2{
+    margin-bottom: 40px;
+    color: var(--azul);
+}
+h1{
+    color:var(--azul);
+}
+
+.boron{
+    border: solid 1px;
+    border-radius: 20%;
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: var(--azul);
+}
+
+.boron:hover{
+    background-color: var(--azul);
+    color: var(--blanco);
+    border: var(--azul) solid;
+}
+
+.divas, .divasB{
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+    padding: 20px;
+}
+
+.divas{
+    color: var(--azul);
+    background-color: var(--blanco);
+}
+
+.divasB{
+    background-color: var(--azul);
+    color: var(--blanco);
+}
+
+.pobreza{
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
